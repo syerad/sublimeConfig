@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[,
+"folder_exclude_patterns": [
+    ".git",
+    "bin",
+    "phing",
+    "packaging",
+    "documentation",
+    "application/apidoc",
+    "application/fom",
+    "application/mapbender",
+    "application/owsproxy",
+    "application/web",
+    "application/app/cache",
+    "application/app/logs"
+],
+"file_exclude_patterns": [
+    "*.phar",
+    "*.lock",
+    "*.cache"
+],
+]]></content>
+    <tabTrigger>mb3-project</tabTrigger>
+    <scope>source.json</scope>
+    <description>Folder and File exclude etc.</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[,
+            "folder_exclude_patterns": [
+                ".git"
+            ],
+            "file_exclude_patterns": [
+                "*.phar",
+                "*.lock",
+                "*.cache"
+            ],
+]]></content>
+    <tabTrigger>basic-project</tabTrigger>
+    <scope>source.json</scope>
+    <description>Folder and File exclude etc.</description>
+</snippet>

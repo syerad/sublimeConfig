@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[\$result = \$client
+    ->find(${1});
+]]></content>
+    <tabTrigger>solrfind</tabTrigger>
+    <scope>source.php</scope>
+    <description>SolrClient2</description>
+</snippet>

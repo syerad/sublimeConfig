@@ -1,0 +1,54 @@
+[
+{ "keys": ["ctrl+shift+-"], "command": "insert_snippet", "args": {"contents": "{% $0 %}"} },
+{ "keys": ["ctrl+shift+#"], "command": "insert_snippet", "args": {"contents": "{{ $0 }}"} },
+{ "keys": ["ctrl+,"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+{ "keys": ["ctrl+alt+shift+s"], "command": "save_all" },
+{ "keys": ["ctrl+shift+alt+c"], "command": "close_all" },
+{ "keys": ["ctrl+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false} },
+{ "keys": ["ctrl+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true} },
+{ "keys": ["ctrl+shift+r"], "command": "reindent" , "args": { "single_line": false } },
+{ "keys": ["f6"], "command": "refresh_folder_list" },
+{"keys": ["f1"],"command": "dired","args": { "immediate": true }},
+{ "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },
+{ "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } },
+{ "keys": ["ctrl+shift+9"], "command": "add_license_stamp" },
+{ "keys": ["ctrl+space"], "command": "auto_complete" },
+{ "keys": ["ctrl+space"], "command": "replace_completion_with_auto_complete", "context":
+          [
+            { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+          ]
+},
+{
+    "command": "navigate_to_definition",
+    "keys": ["ctrl+shift+period"]
+},
+  {
+    "command": "search_for_definition",
+    "keys": ["ctrl+shift+t", "ctrl+shift+y"]
+  },
+{ "keys": ["f10"],
+            "command": "side_bar_open_in_browser" ,
+            "args":{"paths":[], "type":"testing", "browser":""}
+        },
+{ "keys": ["alt+f10"],
+            "command": "side_bar_open_in_browser",
+            "args":{"paths":[], "type":"production", "browser":""}
+        },
+{"keys": ["ctrl+t"],
+            "command": "side_bar_new_file2"
+        },
+{ "keys": ["f5"],
+            "command": "side_bar_rename"
+        },
+{ "keys": ["ctrl+u", "ctrl+u"], "command": "toggle_minimap" },
+
+  // Toggle WhoCalled
+  // { "keys": ["shift+ctrl+l"], "command": "who_called", "args": {"mode": "def"} },
+  // { "keys": ["shift+alt+l"], "command": "who_called", "args": {"mode": "call"} },
+  { "keys": ["ctrl+shift+q"], "command": "alignment" },
+  { "keys": ["f8"], "command": "show_panel", "args": {"panel": "output.exec", "toggle": true} },
+  { "keys": ["ctrl+shift+h"], "command": "expand_selection", "args": {"to": "scope"} },
+
+]

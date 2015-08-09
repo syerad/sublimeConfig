@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[,
+"folder_exclude_patterns": [
+    ".git",
+    "bin",
+    "vendor",
+    "web/bundles",
+    "app/cache",
+    "app/logs"
+],
+"file_exclude_patterns": [
+    "*.phar",
+    "*.lock",
+    "*.cache"
+],
+]]></content>
+    <tabTrigger>symfony-project</tabTrigger>
+    <scope>source.json</scope>
+    <description>Folder and File exclude etc.</description>
+</snippet>

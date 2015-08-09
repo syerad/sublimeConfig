@@ -1,0 +1,16 @@
+{
+    // Plugin enabled
+    "enabled": true,
+
+    // Interval in minutes for saving the time without saving manually.
+    "interval": 5,
+
+    // brief or full
+    "show_results": "brief",
+
+    // Filepath to sqlite database.
+    "database_file": "",
+
+    // Set locale. false for default
+    "locale": "de_DE.utf8"
+}

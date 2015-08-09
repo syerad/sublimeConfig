@@ -1,0 +1,4 @@
+[
+    { "keys": ["super+left"], "command": "project_time_tracker_prev", "context": [{"key": "selector", "operator": "equal", "operand": "text.timetracker" }] },
+    { "keys": ["super+right"], "command": "project_time_tracker_next", "context": [{"key": "selector", "operator": "equal", "operand": "text.timetracker" }] }
+]

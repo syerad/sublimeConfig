@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[die('<pre>' . print_r(${1}, 1) . '</pre>');
+]]></content>
+	<tabTrigger>pre</tabTrigger>
+	<scope>source.php</scope>
+    <description>Debug Ausgabe in PHP</description>
+</snippet>
