@@ -45,7 +45,7 @@
 			},
 			"jscs":
 			{
-				"@disable": true,
+				"@disable": false,
 				"args":
 				[
 				],
@@ -106,7 +106,7 @@
 				]
 			}
 		},
-		"mark_style": "outline",
+		"mark_style": "solid underline",
 		"no_column_highlights_line": false,
 		"passive_warnings": true,
 		"paths":

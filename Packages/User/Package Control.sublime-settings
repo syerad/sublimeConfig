@@ -23,6 +23,7 @@
 		"HTML5",
 		"Indent XML",
 		"jQuery",
+		"JSCS-Formatter",
 		"JsonTree",
 		"Package Control",
 		"PHP-Twig",
@@ -45,6 +46,7 @@
 		"Symfony2 Snippets",
 		"Theme - Asphalt",
 		"Theme - Brogrammer",
+		"Theme - Spaceblack",
 		"Themr",
 		"TrailingSpaces"
 	]

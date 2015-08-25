@@ -43,14 +43,14 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"PHPUnit",
-		"WhoCalled Function Finder",
-		"PHP_CodeSniffer",
-		"CSS",
-		"Javatar",
 		"LiveReload",
-		"Vintage",
-		"C++ Starting Kit"
+		"PHPUnit",
+		"CSS",
+		"PHP_CodeSniffer",
+		"C++ Starting Kit",
+		"Javatar",
+		"WhoCalled Function Finder",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
